@@ -1,0 +1,9 @@
+.localseo_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ed6d1f;
+  color: #fff;
+  height: 600px;
+}

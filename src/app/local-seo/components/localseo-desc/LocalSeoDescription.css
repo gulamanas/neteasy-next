@@ -1,0 +1,32 @@
+.localseo_desc_container {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.localseo_desc_container h3 {
+  text-align: center;
+}
+.localseo_desc_content {
+  display: inline-flex;
+  /* align-items: center; */
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+  gap: 40px;
+}
+.localseo_desc_content p {
+  width: 80%;
+}
+
+@media screen and (min-width: 680px) {
+  .localseo_desc_content {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .localseo_desc_content p {
+    width: 40%;
+  }
+  .localseo_desc_container {
+    padding: 0 100px;
+  }
+}

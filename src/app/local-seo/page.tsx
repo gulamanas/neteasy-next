@@ -1,11 +1,16 @@
 import React from 'react';
-import Navigation from '../components/navigation/Navigation';
+import Navigation from '../common/navigation/Navigation';
+import LocalSeoHeader from './components/localseo-header/LocalSeoHeader';
+import LocalSeoDescription from './components/localseo-desc/LocalSeoDescription';
+import LocalSeoInfo from './components/localseo-info/LocalSeoInfo';
 
 const LocalSeoPage = () => {
   return (
     <div>
       <Navigation />
-      Local Seo Page
+      <LocalSeoHeader />
+      <LocalSeoDescription />
+      <LocalSeoInfo />
     </div>
   );
 };
